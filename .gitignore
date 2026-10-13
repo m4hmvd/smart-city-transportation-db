@@ -1,0 +1,30 @@
+# Windows / Office junk
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.lnk
+
+# Office lock and temp files
+~$*
+*.tmp
+
+# Editor / OS scratch
+.DS_Store
+*.bak
+*.orig
+*~
+
+# Local SQL Server database files (never commit binaries)
+*.mdf
+*.ldf
+*.ndf
+*.bak.sql
+
+# Local build/tooling
+.vs/
+.vscode/
+*.user
+
+# Leftover folder from the pre-organisation layout (a locked duplicate of the 81 MB final report).
+# Delete the folder by hand once nothing holds it open, then this entry can go.
+/Phase (2) Final/
